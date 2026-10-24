@@ -1,0 +1,9 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f5b52c"><title>DAYKO • Fiyat Yönetimi</title><link rel="manifest" href="admin.webmanifest"><link rel="stylesheet" href="admin.css"><script src="data.js"></script><script src="firebase-config.js"></script><script defer src="admin.js"></script></head><body>
+<header><div class="brand">DAYKO <small>Sandviç Büfe</small></div><p>Fiyat Yönetimi</p></header>
+<main>
+ <section id="setup" class="panel" hidden><h1>Bağlantı ayarı gerekli</h1><p>Bu yönetim paneli güvenlik için Firebase kurulmadan fiyat kaydetmez. ZIP içindeki <strong>KURULUM.md</strong> dosyasını takip edin.</p><a href="index.html">Menü önizlemesini aç →</a></section>
+ <section id="login" class="panel" hidden><h1>Yetkili girişi</h1><form id="login-form"><label>E-posta<input id="email" type="email" autocomplete="username" required></label><label>Şifre<input id="password" type="password" autocomplete="current-password" required></label><button type="submit" id="login-submit">Giriş yap</button><p class="help">Yalnızca işletme sahibinin Firebase hesabı kullanılmalıdır.</p></form></section>
+ <section id="editor" hidden><div class="toolbar"><h1>Ürün fiyatları</h1><button id="logout" class="secondary" type="button">Çıkış</button></div><p class="help">Değiştirmek istediğiniz fiyatı yazıp <strong>Kaydet</strong> düğmesine basın. Fiyatlar TL cinsindendir.</p><form id="price-form"><div id="fields"></div><div class="actions"><button id="save" type="submit">Değişiklikleri Kaydet</button></div></form></section>
+ <div id="message" role="status" aria-live="polite" hidden></div>
+</main><footer>DAYKO • Yalnızca işletme yönetimi · <a href="index.html">Müşteri menüsü</a></footer>
+</body></html>

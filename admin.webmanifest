@@ -1,0 +1,1 @@
+{"name": "DAYKO Yönetim", "short_name": "DAYKO Yönetim", "start_url": "./admin.html", "display": "standalone", "background_color": "#fff7e9", "theme_color": "#f5b52c", "icons": [{"src": "assets/admin-icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}]}
